@@ -34,4 +34,3 @@ RUN cd /root && git clone https://github.com/SuperDARN/rst.git
 RUN echo -e "export RSTPATH=/root/rst\n. \$RSTPATH/.profile.bash\nunset DLMPATH" >> /root/.bashrc
 RUN rm -rf /root/rst/codebase/superdarn/src.lib/tk/idl
 
-CMD make.build $$ make.code superdarn rst
