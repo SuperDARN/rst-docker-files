@@ -12,7 +12,7 @@ docker pull ubuntu:14.04
 Then we can move into our directory and build our custom image
 ```bash
 cd ubuntu-14.04_docker
-docker build -t ubuntu-14.04-rst-docker
+docker build -t ubuntu-14.04-rst-docker .
 ```
 
 Our image will take awhile to build, but once completed, everytime the image is run there will be a fresh install of RST and all it's dependencies. We can `git checkout` any branches to test and compile. We can start a pseudo-tty in the image and execute a shell to run commands like so:
