@@ -2,7 +2,7 @@
 
 Docker is a virtualization program that utilizes [containers](https://www.docker.com/what-docker) instead of classic virtual machines. Docker allows us to use a base image for an OS and then add all the dependencies needed for the project. This way we can easily start with a fresh environment every time, but still have everything we need installed. After you install Docker for your platform, here is a brief example on how to use the Docker files that are set up for RST.
 
-##Ubuntu 14.04 example
+## Ubuntu 14.04 example
 
 Pull the base image from Dockerhub
 ```bash
