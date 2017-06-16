@@ -20,4 +20,4 @@ RUN cd /root/cdf36_3-dist && make clean && make OS=linux ENV=gnu all && make INS
 
 RUN cd /root && git clone https://github.com/SuperDARN/rst.git
 RUN printf "export RSTPATH=/root/rst\n. \$RSTPATH/.profile.bash\nunset DLMPATH\nexport CDF_PATH=/usr/local/cdf" >> /root/.bashrc
-RUN rm -rf /root/rst/codebase/superdarn/src.lib/tk/idl
+#RUN rm -rf /root/rst/codebase/superdarn/src.lib/tk/idl
